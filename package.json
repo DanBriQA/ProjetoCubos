@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test:chrome": "cypress run --browser chrome --no-exit"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "name": "cubos",
+  "version": "1.0.0",
+  "description": "Seleção Vaga Cubos",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.3.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "devDependencies": {},
+  "author": "Danilo Brito",
+  "license": "ISC"
+}
